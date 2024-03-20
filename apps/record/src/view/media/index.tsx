@@ -3,10 +3,11 @@
 import { Button, Divider } from '@/components/base';
 import { useCallback, useState } from 'react';
 import { useMediaStore } from '@/stores';
-import { mediaSystem } from '@media';
+// import { mediaSystem } from '@media';
+import { mediaSystem } from '@/modules/media';
 import { toast } from 'sonner';
 
-export const RecordView = () => {
+export default function MediaView() {
   const { openCamera, shareScreenState, openRecordState, updateMediaStore } =
     useMediaStore((state) => ({
       openCamera: state.openCamera,
@@ -123,4 +124,4 @@ export const RecordView = () => {
       <div></div>
     </div>
   );
-};
+}

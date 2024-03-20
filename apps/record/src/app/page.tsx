@@ -1,3 +1,4 @@
+'use client';
 import dynamic from 'next/dynamic';
 
 const MainView = dynamic(() => import('@/view/main'), {
