@@ -1,0 +1,8 @@
+{
+  "name": "record",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/record",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
